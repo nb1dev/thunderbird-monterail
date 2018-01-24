@@ -26,8 +26,24 @@
 
 /******************************************************************/
 /*********************** SELECT THEME HERE ************************/
-@import "themes/system.css";
 /******************************************************************/
+@import "themes/system_thin.css";
+/******************************************************************/
+/* 
+* List of themes :
+* themes/dark.css
+* themes/dark_thin.css
+* themes/darkblue.css
+* themes/darkblue_thin.css
+* themes/fulldark.css
+* themes/fulldark_thin.css
+* themes/light.css
+* themes/light_thin.css
+* themes/monterail.css
+* themes/monterail_thin.css
+* themes/system.css
+* themes/system_thin.css
+*/
 /******************************************************************/
 
 /* Uncommment to use the dark folder pane style when using the system theme with dark menus */

@@ -54,7 +54,7 @@
   --folder-tree-background-color: var(--light-color) !important;
   --folder-tree-text-color: var(--light-text-color);
   --folder-tree-row-height: 25px;
-  --folder-tree-highlight-background-color: var(--highlight-color);
+  --folder-tree-highlight-background-color: #82d3ff;
   --folder-tree-highlight-text-color: var(--folder-tree-text-color);
   
   /*---- Message List ----*/
@@ -63,7 +63,7 @@
   --message-list-background-color: var(--light-white-background);
   --message-list-text-color: var(--light-light-text-color);
   --message-list-row-height: 40px;
-  --message-list-highlight-background-color: var(--tree-row-highlight-background-color);
+  --message-list-highlight-background-color: #82d3ff;
   --message-list-highlight-text-color: var(--tree-row-highlight-text-color);
   
   /*---- Scollbar ----*/

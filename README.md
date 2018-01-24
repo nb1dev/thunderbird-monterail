@@ -1,12 +1,14 @@
-# thunderbird-monterail
+# thunderbird-monterail-thin
 
 This is a set of userChrome.css files to change the look of Thunderbird, inspired by the mockup by Monterail here:
-https://monterail.com/blog/2016/the-power-of-email-clients-why-did-we-redesign-thunderbird?utm_source=Thunderbird&utm_campaign=Dribbble&utm_medium=blogpost%22
+https://monterail.com/blog/2016/the-power-of-email-clients-why-did-we-redesign-thunderbird
+https://github.com/spymastermatt/thunderbird-monterail
 
-- 5 theme variants are included
+- 6 theme variants are included in both original and thin size :
   - System: Uses system theme colors
-  - Light: Light color scheme with orange\* highlights
+  - Light: Light color scheme with orange\* highlights 
   - Dark: Dark color scheme with orange\* highlights
+  - DarkBlue: Dark color scheme with blue\* highlights
   - Full Dark: Dark color scheme with dark message list and blue\* highlights
   - Monterail: Colored theme inspired by the Monterail mockups
 *\*These values are easily customised in userChrome.css*
@@ -25,7 +27,7 @@ In **macOS (OSX)**, it must be extracted in `/home/[user]/Library/Thunderbird/Pr
 
 If your profile is located in a different directory, you can find it by going in Thunderbird's preferences (Tools->Options->Advanced). After that, click the 'Config Editor' button, accept the warning and then search for *directory*. Your directory should be the value of the parameter *mail.server.server1.directory*. This is the path where you should extract the chrome folder.
 
-Rename the extracted *thunderbird-monterail* folder to *chrome*, edit userChrome.css to choose your theme variant, and restart thunderbird. 
+Rename the extracted *thunderbird-monterail-thin* folder to *chrome*, edit userChrome.css to choose your theme variant, and restart thunderbird. 
 
 If using the *system* variant, please make sure you uncomment the appropriate icon theme line (in userChrome.css) for your system colors (an description of each icon theme is written next to each line) 
 
@@ -37,6 +39,9 @@ Light:
 
 Dark:
 ![alt text](https://raw.githubusercontent.com/spymastermatt/thunderbird-monterail/master/screenshots/dark.png)
+
+DarkBlue:
+TBD
 
 Full Dark:
 ![alt text](https://raw.githubusercontent.com/spymastermatt/thunderbird-monterail/master/screenshots/fulldark.png)
